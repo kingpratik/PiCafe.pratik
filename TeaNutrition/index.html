@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+        .heading{
+                position: fixed;
+                inset: 0px;
+                color: #fff;
+                background: rgb(1, 191, 113);
+        }
+        
+        .pee{
+            padding: 2rem 3rem;
+        }
+        
+        form{
+            background: rgb(1, 1, 1);
+            height: 30rem;
+            width: 24rem;
+            display: grid;
+            margin-left: 34.5rem;
+            padding: 80px 32px;
+            border-radius: 4px;
+            box-shadow: rgb(0 0 0 / 90%) 0px 1px 3px;
+        }
+        
+        h1{
+           color: rgb(255, 255, 255);
+           font-size: 23px;
+           font-weight: bolder;
+           margin-top: -28px;
+           margin-bottom: 33px;
+           text-align: center;
+        }
+        
+        input{
+            padding: 16px;
+            margin-bottom: 32px;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        button{
+            padding: 16px;
+            margin-bottom: 32px;
+            border: none;
+            color: #fff;
+            font-size: 1.2rem;
+            background: rgb(1, 191, 113);
+            border-radius: 4px;
+        }
+
+        @media (max-width:767px){
+           form{
+            margin-left: 2rem;
+           }
+        }
+
+        </style>
+</head>
+<body>
+
+    <div class='heading'>
+      <div class='pee'>
+        </div>
+        <div> 
+            <form action="#">
+            <h1>Nutrition Coaching Program</h1>
+            <input type="text" required="" placeholder="First Name*">
+            <input type="number" required="" placeholder="Age*">
+            <input type="email" required="" placeholder="Email*">
+            <input type="" required="" placeholder="Phone Number">
+            <input type="text" placeholder="Messages*">
+            <button type="submit">submit</button>
+            </form>   
+        </div>
+      </div>
+    
+</body>
+</html>
